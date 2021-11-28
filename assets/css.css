@@ -1,0 +1,125 @@
+html{
+    background-color:burlywood ;
+    position : relative
+}
+
+
+#div-box {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#header {
+    text-align: center;
+}
+
+.box-item {
+    width: 150px;
+    height: 200px;
+    box-shadow: 1px 1px 6px 1px;
+    display: inline-block;
+    margin: 14px 17px 36px 1px;
+    border-radius: 30px;
+}
+.box-item:hover{
+    border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+  cursor: pointer;
+}
+.img-item {
+    width: 100%;
+    height: 100px;
+}
+
+.content-item {
+    width: 100%;
+    height: 100px;
+   
+}
+
+.item-id{
+    text-align: center;
+
+}
+
+.id-item{
+    border-radius: 10px;
+    background-color:#ccc; 
+    width: 55px;
+    display:inline-block
+
+}
+.name-item{
+    
+ margin: 8px 0 0 0;
+}
+
+
+.size-img{
+    width: 100px;
+    height: 90px;
+    display: block;
+    margin-left: 23px;
+    margin-top: 18px;
+}
+
+.type-item{
+    text-align: center;
+    background-color: #ccc;
+    display: inline-block;
+    border-radius: 19px;
+    width: 90px;
+}
+
+.color-grass{
+    background-color: aquamarine !important
+}
+.color-fire{
+    background-color:rgb(138, 44, 44) !important
+}
+.color-water{
+    background-color:rgb(41, 63, 190) !important
+}
+.color-bug{
+    background-color:rgb(70, 155, 53) !important 
+}
+.color-normal{
+   background-color:  rgb(176, 209, 240);
+}
+
+.click{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, .5);
+    position: absolute;
+    
+    top:0;
+    width:100%;
+    display: none;
+}
+.display-item{
+    display:flex
+}
+
+.center-item{
+    margin:auto;
+    text-align: center;
+    font-size: 25px;
+    background-color: wheat;
+    border-radius:15px ;
+    position:relative
+}
+.btn-close:hover{
+    cursor: pointer;
+}
+.btn-close{
+    position: absolute;
+    right:0px ;
+    width: 30px;
+    height:30px
+}
